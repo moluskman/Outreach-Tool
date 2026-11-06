@@ -1,0 +1,30 @@
+# Secrets — never commit your API keys
+.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache/build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# Playwright browser binaries (downloaded locally, not project files)
+.playwright/
+
+# Tool output — generated data, not source
+output/
+
+# Editor/OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# One-off test scripts with real send calls — keep local, don't commit accidentally
+test_composio_send.py
